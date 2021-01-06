@@ -998,7 +998,7 @@
     },
     "@types/node": {
       "version": "11.11.6",
-      "resolved": "http://registry.npm.taobao.org/@types/node/download/@types/node-11.11.6.tgz",
+      "resolved": "https://registry.npm.taobao.org/@types/node/download/@types/node-11.11.6.tgz",
       "integrity": "sha1-35KdG7Lu5a/dpZikGTD+ULQ+qmo=",
       "dev": true
     },
@@ -2185,7 +2185,7 @@
           "dependencies": {
             "acorn": {
               "version": "5.7.3",
-              "resolved": "http://registry.npm.taobao.org/acorn/download/acorn-5.7.3.tgz",
+              "resolved": "https://registry.npm.taobao.org/acorn/download/acorn-5.7.3.tgz",
               "integrity": "sha1-Z6ojG/iBKXS4UjWpZ3Hra9B+onk=",
               "dev": true
             }
@@ -2239,7 +2239,7 @@
         },
         "parse-json": {
           "version": "4.0.0",
-          "resolved": "http://registry.npm.taobao.org/parse-json/download/parse-json-4.0.0.tgz",
+          "resolved": "https://registry.npm.taobao.org/parse-json/download/parse-json-4.0.0.tgz",
           "integrity": "sha1-vjX1Qlvh9/bHRxhPmKeIy5lHfuA=",
           "dev": true,
           "requires": {
@@ -2255,7 +2255,7 @@
         },
         "read-pkg": {
           "version": "4.0.1",
-          "resolved": "http://registry.npm.taobao.org/read-pkg/download/read-pkg-4.0.1.tgz",
+          "resolved": "https://registry.npm.taobao.org/read-pkg/download/read-pkg-4.0.1.tgz",
           "integrity": "sha1-ljYlN48+HE1IyFhytabsfV0JMjc=",
           "dev": true,
           "requires": {
@@ -2285,7 +2285,7 @@
         },
         "supports-color": {
           "version": "5.5.0",
-          "resolved": "http://registry.npm.taobao.org/supports-color/download/supports-color-5.5.0.tgz",
+          "resolved": "https://registry.npm.taobao.org/supports-color/download/supports-color-5.5.0.tgz",
           "integrity": "sha1-4uaaRKyHcveKHsCzW2id9lMO/I8=",
           "dev": true,
           "requires": {
@@ -2326,7 +2326,7 @@
           "dependencies": {
             "acorn": {
               "version": "5.7.3",
-              "resolved": "http://registry.npm.taobao.org/acorn/download/acorn-5.7.3.tgz",
+              "resolved": "https://registry.npm.taobao.org/acorn/download/acorn-5.7.3.tgz",
               "integrity": "sha1-Z6ojG/iBKXS4UjWpZ3Hra9B+onk=",
               "dev": true
             }
@@ -2713,7 +2713,7 @@
     },
     "acorn": {
       "version": "6.1.1",
-      "resolved": "http://registry.npm.taobao.org/acorn/download/acorn-6.1.1.tgz",
+      "resolved": "https://registry.npm.taobao.org/acorn/download/acorn-6.1.1.tgz",
       "integrity": "sha1-fSWuBbuK0fm2mRCOEJTs14hK3B8="
     },
     "acorn-dynamic-import": {
@@ -3131,7 +3131,7 @@
           "dependencies": {
             "supports-color": {
               "version": "5.5.0",
-              "resolved": "http://registry.npm.taobao.org/supports-color/download/supports-color-5.5.0.tgz",
+              "resolved": "https://registry.npm.taobao.org/supports-color/download/supports-color-5.5.0.tgz",
               "integrity": "sha1-4uaaRKyHcveKHsCzW2id9lMO/I8=",
               "dev": true,
               "requires": {
@@ -3159,7 +3159,7 @@
         },
         "supports-color": {
           "version": "6.1.0",
-          "resolved": "http://registry.npm.taobao.org/supports-color/download/supports-color-6.1.0.tgz",
+          "resolved": "https://registry.npm.taobao.org/supports-color/download/supports-color-6.1.0.tgz",
           "integrity": "sha1-B2Srxpxj1ayELdSGfo0CXogN+PM=",
           "dev": true,
           "requires": {
@@ -3181,12 +3181,18 @@
       "dev": true
     },
     "axios": {
-      "version": "0.18.0",
-      "resolved": "http://registry.npm.taobao.org/axios/download/axios-0.18.0.tgz?cache=0&other_urls=http%3A%2F%2Fregistry.npm.taobao.org%2Faxios%2Fdownload%2Faxios-0.18.0.tgz",
-      "integrity": "sha1-MtU+SFHv3AoRmTts0AB4nXDAUQI=",
+      "version": "0.21.1",
+      "resolved": "https://registry.npmjs.org/axios/-/axios-0.21.1.tgz",
+      "integrity": "sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==",
       "requires": {
-        "follow-redirects": "^1.3.0",
-        "is-buffer": "^1.1.5"
+        "follow-redirects": "^1.10.0"
+      },
+      "dependencies": {
+        "follow-redirects": {
+          "version": "1.13.1",
+          "resolved": "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.13.1.tgz",
+          "integrity": "sha512-SSG5xmZh1mkPGyKzjZP8zLjltIfpW32Y5QpdNJyjcfGxK3qo3NDDkZOZSFiGn1A6SclQxY9GzEwAHQ3dmYRWpg=="
+        }
       }
     },
     "babel-code-frame": {
@@ -3228,7 +3234,7 @@
       "dependencies": {
         "eslint-scope": {
           "version": "3.7.1",
-          "resolved": "http://registry.npm.taobao.org/eslint-scope/download/eslint-scope-3.7.1.tgz",
+          "resolved": "https://registry.npm.taobao.org/eslint-scope/download/eslint-scope-3.7.1.tgz",
           "integrity": "sha1-PWPD7f2gLgbgGkUq2IyqzHzctug=",
           "dev": true,
           "requires": {
@@ -3773,7 +3779,7 @@
         },
         "iconv-lite": {
           "version": "0.4.23",
-          "resolved": "http://registry.npm.taobao.org/iconv-lite/download/iconv-lite-0.4.23.tgz",
+          "resolved": "https://registry.npm.taobao.org/iconv-lite/download/iconv-lite-0.4.23.tgz",
           "integrity": "sha1-KXhx9jvlB63Pv8pxXQzQ7thOmmM=",
           "dev": true,
           "requires": {
@@ -5540,6 +5546,7 @@
       "version": "3.2.6",
       "resolved": "http://registry.npm.taobao.org/debug/download/debug-3.2.6.tgz",
       "integrity": "sha1-6D0X3hbYp++3cX7b5fsQE17uYps=",
+      "dev": true,
       "requires": {
         "ms": "^2.1.1"
       }
@@ -6161,7 +6168,7 @@
     },
     "eslint": {
       "version": "5.15.3",
-      "resolved": "http://registry.npm.taobao.org/eslint/download/eslint-5.15.3.tgz",
+      "resolved": "https://registry.npm.taobao.org/eslint/download/eslint-5.15.3.tgz",
       "integrity": "sha1-x5w5CdyKf6NxT7NAwR4w/SUmuLU=",
       "dev": true,
       "requires": {
@@ -6315,7 +6322,7 @@
         },
         "import-fresh": {
           "version": "3.0.0",
-          "resolved": "http://registry.npm.taobao.org/import-fresh/download/import-fresh-3.0.0.tgz",
+          "resolved": "https://registry.npm.taobao.org/import-fresh/download/import-fresh-3.0.0.tgz",
           "integrity": "sha1-o9iX9CDKsOZxI2iX91vBS0iFw5A=",
           "dev": true,
           "requires": {
@@ -6406,7 +6413,7 @@
         },
         "table": {
           "version": "5.2.3",
-          "resolved": "http://registry.npm.taobao.org/table/download/table-5.2.3.tgz",
+          "resolved": "https://registry.npm.taobao.org/table/download/table-5.2.3.tgz",
           "integrity": "sha1-zeDMbrBnUcAJ76sn6Mggyltnt/I=",
           "dev": true,
           "requires": {
@@ -6765,7 +6772,7 @@
       "dependencies": {
         "ignore": {
           "version": "5.0.6",
-          "resolved": "http://registry.npm.taobao.org/ignore/download/ignore-5.0.6.tgz",
+          "resolved": "https://registry.npm.taobao.org/ignore/download/ignore-5.0.6.tgz",
           "integrity": "sha1-Vi2sx+wn1nLd5DOqaDxUOyTBdpQ=",
           "dev": true
         }
@@ -6785,7 +6792,7 @@
     },
     "eslint-plugin-vue": {
       "version": "5.2.2",
-      "resolved": "http://registry.npm.taobao.org/eslint-plugin-vue/download/eslint-plugin-vue-5.2.2.tgz",
+      "resolved": "https://registry.npm.taobao.org/eslint-plugin-vue/download/eslint-plugin-vue-5.2.2.tgz",
       "integrity": "sha1-hmAYI7dyG3C8ktVPFyjPwDs2KDw=",
       "dev": true,
       "requires": {
@@ -7496,6 +7503,7 @@
       "version": "1.7.0",
       "resolved": "http://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.7.0.tgz",
       "integrity": "sha1-SJ68GY3A5/ZBZ70jsDxMGbV4THY=",
+      "dev": true,
       "requires": {
         "debug": "^3.2.6"
       }
@@ -8189,7 +8197,7 @@
     },
     "globby": {
       "version": "9.1.0",
-      "resolved": "http://registry.npm.taobao.org/globby/download/globby-9.1.0.tgz",
+      "resolved": "https://registry.npm.taobao.org/globby/download/globby-9.1.0.tgz",
       "integrity": "sha1-6Q9NUTQQnm2FWr3TG9sbCFQoWS4=",
       "dev": true,
       "requires": {
@@ -12544,7 +12552,7 @@
     },
     "p-limit": {
       "version": "2.2.0",
-      "resolved": "http://registry.npm.taobao.org/p-limit/download/p-limit-2.2.0.tgz",
+      "resolved": "https://registry.npm.taobao.org/p-limit/download/p-limit-2.2.0.tgz",
       "integrity": "sha1-QXyZQeYCepq8ulCS3SkE4lW1+8I=",
       "requires": {
         "p-try": "^2.0.0"
@@ -13384,7 +13392,7 @@
         },
         "parse-json": {
           "version": "4.0.0",
-          "resolved": "http://registry.npm.taobao.org/parse-json/download/parse-json-4.0.0.tgz",
+          "resolved": "https://registry.npm.taobao.org/parse-json/download/parse-json-4.0.0.tgz",
           "integrity": "sha1-vjX1Qlvh9/bHRxhPmKeIy5lHfuA=",
           "dev": true,
           "requires": {
@@ -15259,7 +15267,7 @@
       "dependencies": {
         "iconv-lite": {
           "version": "0.4.23",
-          "resolved": "http://registry.npm.taobao.org/iconv-lite/download/iconv-lite-0.4.23.tgz",
+          "resolved": "https://registry.npm.taobao.org/iconv-lite/download/iconv-lite-0.4.23.tgz",
           "integrity": "sha1-KXhx9jvlB63Pv8pxXQzQ7thOmmM=",
           "dev": true,
           "requires": {
@@ -15427,7 +15435,7 @@
     },
     "regexpu-core": {
       "version": "4.5.4",
-      "resolved": "http://registry.npm.taobao.org/regexpu-core/download/regexpu-core-4.5.4.tgz",
+      "resolved": "https://registry.npm.taobao.org/regexpu-core/download/regexpu-core-4.5.4.tgz",
       "integrity": "sha1-CA2dAiiaqH/hZnpPUTa8mKauuq4=",
       "requires": {
         "regenerate": "^1.4.0",
@@ -17867,7 +17875,7 @@
         },
         "ws": {
           "version": "6.2.0",
-          "resolved": "http://registry.npm.taobao.org/ws/download/ws-6.2.0.tgz",
+          "resolved": "https://registry.npm.taobao.org/ws/download/ws-6.2.0.tgz",
           "integrity": "sha1-E4BtmROypfPLubpHtWPAAsvHxSY=",
           "dev": true,
           "requires": {
@@ -18015,7 +18023,7 @@
         },
         "mem": {
           "version": "4.2.0",
-          "resolved": "http://registry.npm.taobao.org/mem/download/mem-4.2.0.tgz",
+          "resolved": "https://registry.npm.taobao.org/mem/download/mem-4.2.0.tgz",
           "integrity": "sha1-XuBXaA7Zy42tinjYIPmoiXoQICU=",
           "dev": true,
           "requires": {
@@ -18026,7 +18034,7 @@
         },
         "mimic-fn": {
           "version": "2.0.0",
-          "resolved": "http://registry.npm.taobao.org/mimic-fn/download/mimic-fn-2.0.0.tgz",
+          "resolved": "https://registry.npm.taobao.org/mimic-fn/download/mimic-fn-2.0.0.tgz",
           "integrity": "sha1-CRP/CxIdtE71hIJCw4u7NdRMq94=",
           "dev": true
         },
@@ -18081,7 +18089,7 @@
         },
         "yargs-parser": {
           "version": "10.1.0",
-          "resolved": "http://registry.npm.taobao.org/yargs-parser/download/yargs-parser-10.1.0.tgz",
+          "resolved": "https://registry.npm.taobao.org/yargs-parser/download/yargs-parser-10.1.0.tgz",
           "integrity": "sha1-cgImW4n36eny5XZeD+c1qQXtuqg=",
           "dev": true,
           "requires": {
